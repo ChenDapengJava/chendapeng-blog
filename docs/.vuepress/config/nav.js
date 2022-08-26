@@ -4,9 +4,8 @@ module.exports = [
     text: 'Java',
     link: '/Java/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
-      {text: 'JVM', link: ''},
-      {text: 'GC', link: ''},
-      {text: '其他', link: ''},
+      {text: 'JVM', link: '/pages/bd7100/'},
+      {text: 'Java基础', link: '/pages/8cd447/'},
     ]
   },
   {
