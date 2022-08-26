@@ -36,7 +36,7 @@
 .qq
   position: relative;
 .qq::after
-  content: "不可撩";
+  content: "可撩";
   background: $accentColor;
   color:#fff;
   padding: 0 5px;
@@ -44,7 +44,7 @@
   font-size:12px;
   position: absolute;
   top: -4px;
-  right: -50px;
+  right: -35px;
   transform:scale(0.85);
 
 // demo模块图标颜色
@@ -57,3 +57,16 @@ body .vuepress-plugin-demo-block__wrapper
       border-bottom-color: $accentColor !important;
     svg
       fill: $accentColor !important;
+
+// 全文搜索框
+.suggestions
+  overflow: auto
+  max-height: calc(100vh - 6rem)
+  @media (max-width: 719px) {
+    width: 90vw;
+    min-width: 90vw!important;
+    margin-right: -20px;
+  }
+  .highlight
+    color: $accentColor
+    font-weight: bold
