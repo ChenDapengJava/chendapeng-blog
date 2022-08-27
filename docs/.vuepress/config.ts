@@ -59,12 +59,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ]
       },
       {
+        text: '分布式',
+        link: '/pages/848b43/'
+      },
+      {
         text: 'Spring Cloud Alibaba',
         link: '/pages/a72696/'
       },
       {
-        text: '分布式',
-        link: '/pages/848b43/'
+        text: '云原生',
+        link: '/pages/26a2bf/'
       },
       {
         text: '数据结构与算法',
