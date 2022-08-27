@@ -19,8 +19,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "行百里er的博客",
-      description: 'Java,个人技术博客,后端开发,技术架构,分布式技术,Spring Cloud Alibaba,Elasticsearch,Redis,算法,数据结构,Git',
+      title: "行百里er",
+      description: 'Java,后端开发,技术架构,分布式技术,Spring Cloud Alibaba,云原生,Elasticsearch,Redis,算法,数据结构,Git',
     }
   },
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
@@ -30,6 +30,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 导航配置
     nav: [
       {text: '首页', link: '/'},
+      {
+        text: '索引',
+        link: '/archives/',
+        items: [
+          { text: '分类', link: '/categories/' },
+          { text: '标签', link: '/tags/' },
+          { text: '归档', link: '/archives/' },
+        ],
+      },
       {
         text: 'Java',
         link: '/Java/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
@@ -75,15 +84,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/pages/dfd74d/'
       },
       {text: '关于', link: '/about/'},
-      {
-        text: '索引',
-        link: '/archives/',
-        items: [
-          { text: '分类', link: '/categories/' },
-          { text: '标签', link: '/tags/' },
-          { text: '归档', link: '/archives/' },
-        ],
-      },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/xblzer.png', // 导航栏logo
