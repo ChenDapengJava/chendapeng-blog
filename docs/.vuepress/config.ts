@@ -182,7 +182,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       }
     },
 
-    // 自定义hmtl(广告)模块
+    // 自定义hmtl模块
     htmlModules
   },
 
