@@ -57,8 +57,7 @@ tags:
 
       const fmData = `---
 title: ${file.name}
-titleTag: '原创'
-date: ${dateStr}
+titleTag: '原创'date: ${dateStr}
 permalink: ${getPermalink()}${file.filePath.indexOf('_posts') > -1 ? os.EOL + 'sidebar: auto' : ''}${cateStr}${tagsStr}
 ${extendFrontmatterStr}---`;
 
