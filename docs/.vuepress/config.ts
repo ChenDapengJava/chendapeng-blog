@@ -40,6 +40,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
+        text: '设计模式',
+        link: '/pages/96ef4a/'
+      },
+      {
         text: 'Java',
         link: '/Java/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
