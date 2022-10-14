@@ -173,9 +173,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 页脚信息
     footer: {
-      createYear: 2019, // 博客创建年份
+      createYear: 2020,
       copyrightInfo:
-        '行百里er | <a href="https://github.com/ChenDapengJava/chendapeng-blog/blob/main/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+          '行百里er | <a href="https://github.com/ChenDapengJava/chendapeng-blog/blob/main/LICENSE" target="_blank">MIT License</a>' +
+          ' | <a style="color: #42b983" href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2022020385号-1</a>',
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
